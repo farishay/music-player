@@ -1,0 +1,95 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(247, 247, 61),
+    rgb(7, 240, 228),
+    rgb(255, 255, 32),
+    rgb(2, 109, 104)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  background-image: url(./seaside.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 13px;
+  background-color: rgb(8, 201, 201);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.container:hover {
+  border: 2px solid white;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.8),
+    0px 0px 20px 4px rgba(8, 8, 8, 0.7), 0px 0px 30px 6px rgb(15, 89, 208),
+    0px 0px 40px 8px rgba(11, 121, 205, 0.938);
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.circle {
+  padding: 7px;
+  border-radius: 40%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.cover {
+  border: 5px solid #0e0e0f;
+  border-radius: 50%;
+  margin: 20px;
+  width: 160px;
+  height: 160px;
+}
+.cover:hover {
+  box-shadow: 0px 0px 10px 2px rgba(246, 248, 248, 0.8),
+    0px 0px 20px 4px rgb(179, 214, 235), 0px 0px 30px 6px rgb(6, 135, 221),
+    0px 0px 40px 8px rgba(5, 108, 122, 0.5);
+}
+.cover2 {
+  margin-top: -6%;
+  padding: 0%;
+  width: 250px;
+}
+h1 {
+  margin: 0%;
+  padding: 0%;
+  font-size: 40px;
+  color: #080808;
+}
+h2 {
+  margin: -10%;
+  padding: 0%;
+  font-size: 40px;
+  color: #0a0a0a;
+}
+h3 {
+  margin: 10%;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #050505f0;
+}
+audio {
+  margin: 15px;
+  margin-top: -8%;
+}
